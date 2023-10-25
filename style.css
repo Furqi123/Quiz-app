@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'poppin';
+  src: url(./Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'poppin-bold';
+  src: url(./Poppins/Poppins-Bold.ttf);
+}
+
+
+body {
+  background-color: #007bff !important;
+  overflow-x: hidden !important;
+  
+}
+
+* {
+  font-family: 'poppin';
+}
+
+
+.sign-up {
+  padding: 50px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 450px;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  border-radius: 4px;
+
+}
+
+
+
+.sign-up-title p {
+  font-family: 'poppin-bold';
+  font-size: 29px;
+
+}
+
+.sign-up-title {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-email input,
+.sign-up-pass input {
+  height: 35px;
+}
+
+.sign-up-pass {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+.sign-up-pass p {
+  color: #007bff;
+  font-size: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sign-up-btn button {
+  background-color: #007bff;
+  color: #fff;
+  font-family: 'poppin-bold';
+  border: none;
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+}
+
+
+.row {
+overflow-x: hidden !important;
+}
+
+.quiz-box {
+  display: flex;
+  justify-content: center !important;
+  overflow-x: hidden !important;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  margin-top: 200px;
+  /* padding: 50px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  */
+  cursor: pointer;
+}
+
+.card-body{
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+
+.box{
+  width: 80%;
+  height: 450px;
+  background-color: #fff;
+  padding: 50px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.box-body{
+  display: flex;
+  flex-direction: column; 
+}
+
+.correct-timer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ques{
+  font-family: 'poppin-bold';
+  font-size: 25px;
+}
+
+.count{
+  font-size: 20px;
+ }
+
+ .time{
+  font-size: 20px;
+ }
+
+.comb-color{
+  color: #007bff;
+}
+
+.box input{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+
+.box-body label{
+  font-size: 20px;
+}
+
+
+
+.box-btn{
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+
+
+
+
+
+.result{
+  width: 40%;
+  height: 500px;
+  background-color: #fff;
+  padding: 50px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+ 
+}
+
+
+.result-icon{
+  color: #007bff !important;
+  
+}
+
+.result-body p{
+  font-size: 30px;
+ color: #007bff;
+}
+
+.result-body-p2 p{
+  font-size: 35px;
+  color: #000;
+}
+
+.result-body-p3{
+  font-size: 40px;
+  color: #007bff;
+}
+
+.result-btn{
+  display: flex;
+  align-items: center;
+}
+
+.result-btn button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  height: 40px;
+  margin-right: 20px;
+}
