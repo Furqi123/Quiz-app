@@ -238,3 +238,16 @@ overflow-x: hidden !important;
   height: 40px;
   margin-right: 20px;
 }
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+  background-color: #007bff !important;
+  width: 90% !important;
+}
+
+.swal2-confirm{
+  width: 90% !important;
+}
+
+.swal2-actions{
+  width: 90% !important;
+}
